@@ -58,9 +58,9 @@ if &background == 'dark'
   hi Substitute cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
   hi MatchParen cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
   hi Comment cterm=NONE ctermfg=8 ctermbg=0 gui=NONE guifg=8 guibg=0 "
-  hi Constant cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
+  hi Constant cterm=NONE ctermfg=12 ctermbg=0 gui=NONE guifg=12 guibg=0
   hi Special cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
-  hi Identifier cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
+  hi Identifier cterm=NONE ctermfg=3 ctermbg=0 gui=NONE guifg=3 guibg=0
   hi Statement cterm=NONE ctermfg=2 ctermbg=0 gui=NONE guifg=2 guibg=0
   hi PreProc cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
   hi Type cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
@@ -141,9 +141,9 @@ else
   hi Substitute cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
   hi MatchParen cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
   hi Comment cterm=NONE ctermfg=8 ctermbg=7 gui=NONE guifg=8 guibg=7
-  hi Constant cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
+  hi Constant cterm=NONE ctermfg=12 ctermbg=7 gui=NONE guifg=12 guibg=7
   hi Special cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
-  hi Identifier cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
+  hi Identifier cterm=NONE ctermfg=0 ctermbg=7 gui=NONE guifg=0 guibg=7
   hi Statement cterm=NONE ctermfg=2 ctermbg=7 gui=NONE guifg=2 guibg=7
   hi PreProc cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
   hi Type cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
