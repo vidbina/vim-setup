@@ -9,19 +9,8 @@ endif
 
 let colors_name = "vidbina"
 
-""let categories = ['Normal', 'Comment', 'Boolean']
-let categories = ['Comment']
-
-echo "something"
 if &background == 'dark'
-  echo "it is dark"
-  for category in categories
-    echo "category " category
-    let s:foreground = 1
-    echo category " should be " s:foreground
-    hi category cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
-  endfor
-"  hi Normal cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
+  hi Normal cterm=NONE ctermfg=7 ctermbg=0 gui=NONE guifg=7 guibg=0
 "  hi SpecialKey cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi EndOfBuffer cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi TermCursor cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
@@ -68,7 +57,7 @@ if &background == 'dark'
 "  hi QuickFixLine cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Substitute cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi MatchParen cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
-"  hi Comment cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
+  hi Comment cterm=NONE ctermfg=8 ctermbg=0 gui=NONE guifg=8 guibg=0
 "  hi Constant cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Special cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Identifier cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
@@ -85,7 +74,7 @@ if &background == 'dark'
 "  hi Boolean cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Float cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Function cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
-"  hi Conditional cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
+  hi Conditional cterm=NONE ctermfg=1 ctermbg=0 gui=NONE guifg=1 guibg=0
 "  hi Repeat cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Label cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Operator cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
@@ -104,14 +93,7 @@ if &background == 'dark'
 "  hi SpecialComment cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 "  hi Debug cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
 else
-  echo "it is light"
-  for category in categories
-    echo "category " category
-    let s:foreground = 3
-    echo category " should be " s:foreground
-    hi category cterm=NONE ctermfg=0 ctermbg=0 gui=NONE guifg=0 guibg=0
-  endfor
-"  hi Normal cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
+  hi Normal cterm=NONE ctermfg=0 ctermbg=7 gui=NONE guifg=0 guibg=7
 "  hi SpecialKey cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi EndOfBuffer cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi TermCursor cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
@@ -158,7 +140,7 @@ else
 "  hi QuickFixLine cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Substitute cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi MatchParen cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
-"  hi Comment cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
+  hi Comment cterm=NONE ctermfg=8 ctermbg=7 gui=NONE guifg=8 guibg=7
 "  hi Constant cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Special cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Identifier cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
@@ -175,7 +157,7 @@ else
 "  hi Boolean cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Float cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Function cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
-"  hi Conditional cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
+  hi Conditional cterm=NONE ctermfg=1 ctermbg=7 gui=NONE guifg=1 guibg=7
 "  hi Repeat cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Label cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
 "  hi Operator cterm=NONE ctermfg=7 ctermbg=7 gui=NONE guifg=7 guibg=7
